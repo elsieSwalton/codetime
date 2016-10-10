@@ -1,80 +1,7 @@
 <html>
-<style type='text/css'>
-body {
-  font-family: trebuchet ms;
-  background: gold;
-  padding: 0;
-}
-.subarticle h1 {
-  color: #ffffff;
-  margin-bottom: 0px;
-  font-size: 25pt;
-  background-color: #daa520;
-  padding-left: 30px;
-  padding: 14px 16px;
-
-}
-.my-container {
-    position: relative;
-    background: #daa520;
-    overflow: hidden;
-}
-.my-container h1 {
-    padding: 70px;
-    text-align: center;
-    z-index: 2;
-    position: relative;
-    color: #ffffff;
-    text-decoration: underline;
-}
-.my-container img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-    opacity: 0.5;
-    overflow: hidden;
-    flex-shrink: 0;
-    min-width: 100%;
-    object-fit: cover
-    vertical-align: middle;
-}
-article {
-  background: #ffffff;
-  margin-top: 0px;
-  padding: 15px;
-  padding-left: 30px;
-}
-.subhead1{
-  background-color: #daa520;
-  color: #ffffff;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  float: left;
-  display: inline-block;
-}
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #daa520;
-}
-ul.topnav li {float: left;}
-ul.topnav li a {
-    display: inline-block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-ul.topnav li a:hover {background-color: #F7C23B;}
-</style>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
 <ul class="topnav" id="myTopnav">
   <li><a href="#home">Home</a></li>
   <li><a href="#about">About</a></li>
@@ -94,9 +21,6 @@ ul.topnav li a:hover {background-color: #F7C23B;}
 </div>
         <article>
           <p>Whether it be socials, conferences, or skill-building classes, the School of Art History class reps have you covered.</p>
-          <p>Monday 1st January (4pm) @ Design Suite - Photoshop Tutorial</p>
-          <p>Tuesday 2nd February (6pm) @ Design Suite - Promoting an Event: Introduction to Publicity</p>
-          <p>Wednesday 3rd March (7pm) @ Parliament Hall - Cocktail Party
         </article>
       </div>
     </div>
@@ -113,7 +37,7 @@ ul.topnav li a:hover {background-color: #F7C23B;}
 <p>3rd Year Reps</p>
 <p>4th Year Reps</p>
 <p>Masters Level Reps: Elisabeth Walton, Caroline Croasdaile and Ilana Dresdner</p>
-<p>Postgraduate Research Rep: </p>
+<p>Postgraduate Research Rep: Emily Savage</p>
 </article>
 </div>
 
@@ -122,7 +46,9 @@ ul.topnav li a:hover {background-color: #F7C23B;}
   Events
 </h1>
 <article>
-<p>howdy howdy howdy</p>
+  <p>Monday 1st January (4pm) @ Design Suite - Photoshop Tutorial</p>
+  <p>Tuesday 2nd February (6pm) @ Design Suite - Promoting an Event: Introduction to Publicity</p>
+  <p>Wednesday 3rd March (7pm) @ Parliament Hall - Cocktail Party</p>
 </article>
 </div>
 
